@@ -45,17 +45,6 @@
     "start_detail": {
       "type": "string"
     },
-    "affiliation_status": {
-      "type": "string",
-      "enum": [
-        "条件内",
-        "差分あり",
-        "情報不足・要確認"
-      ]
-    },
-    "affiliation_detail": {
-      "type": "string"
-    },
     "remote_status": {
       "type": "string",
       "enum": [
@@ -86,8 +75,6 @@
     "price_detail",
     "start_status",
     "start_detail",
-    "affiliation_status",
-    "affiliation_detail",
     "remote_status",
     "remote_detail",
     "required_skills_evaluation",
