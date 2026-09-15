@@ -1,0 +1,52 @@
+{
+  "type": "object",
+  "properties": {
+    "is_candidate_proposal": {
+      "type": "boolean"
+    },
+    "project_number": {
+      "type": "string"
+    },
+    "candidate_name": {
+      "type": "string"
+    },
+    "age": {
+      "type": "string"
+    },
+    "nationality": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "available_from": {
+      "type": "string"
+    },
+    "affiliation": {
+      "type": "string"
+    },
+    "nearest_station": {
+      "type": "string"
+    },
+    "remote_condition": {
+      "type": "string"
+    },
+    "skills": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "is_candidate_proposal",
+    "project_number",
+    "candidate_name",
+    "age",
+    "nationality",
+    "price",
+    "available_from",
+    "affiliation",
+    "nearest_station",
+    "remote_condition",
+    "skills"
+  ],
+  "additionalProperties": false
+}
