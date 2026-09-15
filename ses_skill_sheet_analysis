@@ -1,0 +1,57 @@
+{
+  "type": "object",
+  "properties": {
+    "programming_languages": {
+      "type": "string"
+    },
+    "frameworks": {
+      "type": "string"
+    },
+    "databases": {
+      "type": "string"
+    },
+    "cloud_infrastructure": {
+      "type": "string"
+    },
+    "operating_systems": {
+      "type": "string"
+    },
+    "middleware": {
+      "type": "string"
+    },
+    "development_tools": {
+      "type": "string"
+    },
+    "development_phases": {
+      "type": "string"
+    },
+    "experience_years": {
+      "type": "string"
+    },
+    "business_experience": {
+      "type": "string"
+    },
+    "leadership_experience": {
+      "type": "string"
+    },
+    "skill_summary": {
+      "type": "string",
+      "maxLength": 1000
+    }
+  },
+  "required": [
+    "programming_languages",
+    "frameworks",
+    "databases",
+    "cloud_infrastructure",
+    "operating_systems",
+    "middleware",
+    "development_tools",
+    "development_phases",
+    "experience_years",
+    "business_experience",
+    "leadership_experience",
+    "skill_summary"
+  ],
+  "additionalProperties": false
+}
