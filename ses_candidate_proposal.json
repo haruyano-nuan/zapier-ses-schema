@@ -39,6 +39,9 @@
     },
     "skills": {
       "type": "string"
+    },
+    "skill_sheet_url": {
+      "type": "string"
     }
   },
   "required": [
@@ -54,7 +57,8 @@
     "affiliation",
     "nearest_station",
     "remote_condition",
-    "skills"
+    "skills",
+    "skill_sheet_url"
   ],
   "additionalProperties": false
 }
