@@ -1,0 +1,56 @@
+{
+  "type": "object",
+  "properties": {
+    "project_number": {
+      "type": "string"
+    },
+    "project_name": {
+      "type": "string"
+    },
+    "price_upper": {
+      "type": "string"
+    },
+    "start_date": {
+      "type": "string"
+    },
+    "nearest_station": {
+      "type": "string"
+    },
+    "remote_condition": {
+      "type": "string"
+    },
+    "minimum_work_days": {
+      "type": "string"
+    },
+    "age_condition": {
+      "type": "string"
+    },
+    "nationality_condition": {
+      "type": "string"
+    },
+    "commercial_flow_condition": {
+      "type": "string"
+    },
+    "required_skills": {
+      "type": "string"
+    },
+    "preferred_skills": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "project_number",
+    "project_name",
+    "price_upper",
+    "start_date",
+    "nearest_station",
+    "remote_condition",
+    "minimum_work_days",
+    "age_condition",
+    "nationality_condition",
+    "commercial_flow_condition",
+    "required_skills",
+    "preferred_skills"
+  ],
+  "additionalProperties": false
+}
