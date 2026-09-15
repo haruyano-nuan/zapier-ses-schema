@@ -38,7 +38,8 @@
       "type": "string"
     },
     "skills": {
-      "type": "string"
+      "type": "string",
+      "maxLength": 300
     },
     "skill_sheet_url": {
       "type": "string"
