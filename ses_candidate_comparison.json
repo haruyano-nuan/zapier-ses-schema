@@ -1,0 +1,74 @@
+{
+  "type": "object",
+  "properties": {
+    "age_status": {
+      "type": "string",
+      "enum": ["✅ 条件内", "⚠️ 差分あり", "⚪ 情報不足・要確認"]
+    },
+    "age_detail": {
+      "type": "string"
+    },
+    "nationality_status": {
+      "type": "string",
+      "enum": ["✅ 条件内", "⚠️ 差分あり", "⚪ 情報不足・要確認"]
+    },
+    "nationality_detail": {
+      "type": "string"
+    },
+    "price_status": {
+      "type": "string",
+      "enum": ["✅ 条件内", "⚠️ 差分あり", "⚪ 情報不足・要確認"]
+    },
+    "price_detail": {
+      "type": "string"
+    },
+    "start_status": {
+      "type": "string",
+      "enum": ["✅ 条件内", "⚠️ 差分あり", "⚪ 情報不足・要確認"]
+    },
+    "start_detail": {
+      "type": "string"
+    },
+    "affiliation_status": {
+      "type": "string",
+      "enum": ["✅ 条件内", "⚠️ 差分あり", "⚪ 情報不足・要確認"]
+    },
+    "affiliation_detail": {
+      "type": "string"
+    },
+    "remote_status": {
+      "type": "string",
+      "enum": ["✅ 条件内", "⚠️ 差分あり", "⚪ 情報不足・要確認"]
+    },
+    "remote_detail": {
+      "type": "string"
+    },
+    "required_skills_evaluation": {
+      "type": "string"
+    },
+    "preferred_skills_evaluation": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "age_status",
+    "age_detail",
+    "nationality_status",
+    "nationality_detail",
+    "price_status",
+    "price_detail",
+    "start_status",
+    "start_detail",
+    "affiliation_status",
+    "affiliation_detail",
+    "remote_status",
+    "remote_detail",
+    "required_skills_evaluation",
+    "preferred_skills_evaluation",
+    "summary"
+  ],
+  "additionalProperties": false
+}
