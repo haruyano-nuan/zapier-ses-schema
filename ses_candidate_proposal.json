@@ -7,6 +7,12 @@
     "project_number": {
       "type": "string"
     },
+    "sender_company": {
+      "type": "string"
+    },
+    "sender_name": {
+      "type": "string"
+    },
     "candidate_name": {
       "type": "string"
     },
@@ -38,6 +44,8 @@
   "required": [
     "is_candidate_proposal",
     "project_number",
+    "sender_company",
+    "sender_name",
     "candidate_name",
     "age",
     "nationality",
