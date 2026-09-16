@@ -41,6 +41,9 @@
       "type": "string",
       "maxLength": 300
     },
+    "condition_responses": {
+      "type": "string"
+    },
     "skill_sheet_url": {
       "type": "string"
     }
@@ -59,6 +62,7 @@
     "nearest_station",
     "remote_condition",
     "skills",
+    "condition_responses",
     "skill_sheet_url"
   ],
   "additionalProperties": false
