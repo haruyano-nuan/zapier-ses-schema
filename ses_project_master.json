@@ -36,6 +36,9 @@
     },
     "preferred_skills": {
       "type": "string"
+    },
+    "matching_points": {
+      "type": "string"
     }
   },
   "required": [
@@ -50,7 +53,8 @@
     "nationality_condition",
     "commercial_flow_condition",
     "required_skills",
-    "preferred_skills"
+    "preferred_skills",
+    "matching_points"
   ],
   "additionalProperties": false
 }
