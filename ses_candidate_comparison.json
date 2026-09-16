@@ -62,6 +62,9 @@
     "preferred_skills_evaluation": {
       "type": "string"
     },
+    "matching_points_evaluation": {
+      "type": "string"
+    },
     "summary": {
       "type": "string"
     }
@@ -79,6 +82,7 @@
     "remote_detail",
     "required_skills_evaluation",
     "preferred_skills_evaluation",
+    "matching_points_evaluation",
     "summary"
   ],
   "additionalProperties": false
